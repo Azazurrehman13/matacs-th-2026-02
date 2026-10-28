@@ -1,9 +1,9 @@
 # MATACS-TH-2026-02: AI Proposal Triage Design
 
-- **Full name:** TODO: your full name
+- **Full name:** Azaz Ur Rehman
 - **Reference:** MATACS-TH-2026-02
 - **Role:** Associate Software Developer
-- **Time actually spent:** TODO: your real total (design ≈ X h, prototype ≈ Y h)
+- **Time actually spent:** about 3 hours (design and write-up ≈ 1.5 h, prototype and testing ≈ 1.5 h)
 
 ## Files
 
@@ -33,7 +33,7 @@ A ranked 1st, E ranked 2nd, D and C flagged for human review, B ineligible. Reas
 
 ## How I used AI tools
 
-TODO: write 2-3 sentences in your own words. Say which tool(s) you used and for what (for example drafting the write-up, generating the prototype). **You must include at least one real place where you disagreed with or corrected the AI's output, and why.** Use something that actually happened, for example a scoring rule you changed, a flag you added, or a claim you removed after checking it against the brief.
+I used Claude to help draft the design, write-up, prompt and prototype script, and I ran and tested the prototype myself. When I ran the live extraction, it flagged A and E for a possible experience-window issue that the hand-written test data had missed. I checked the quotes in the audit file and decided to keep it as a reviewer note rather than a hold, because it does not change the ranking. I also hit a crash when no sample files were present and a temperature setting my SDK version did not accept, and fixed both.
 
 ## Running the prototype (optional)
 
