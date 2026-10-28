@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Proposal text (the brief says not to publish it)
+prototype/samples/*
+!prototype/samples/.gitkeep
+
+# Generated output
+prototype/out/
